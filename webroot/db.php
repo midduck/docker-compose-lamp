@@ -1,7 +1,7 @@
 <?php
 $dsn = 'mysql:dbname=phpapp;host=db';
 $user = 'root';
-$password = 'phpapptest';
+$password = 'password';
 
 try {
     $dbh = new PDO($dsn, $user, $password);

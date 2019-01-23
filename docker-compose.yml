@@ -7,9 +7,9 @@ web:
   volumes:
     - .:/code
 db:
-  image: "mysql:5"
+  image: mysql
   volumes:
     - ./mysql:/etc/mysql/conf.d
   environment:
-    MYSQL_ROOT_PASSWORD: phpapptest
+    MYSQL_ROOT_PASSWORD: rootpassword
     MYSQL_DATABASE: phpapp
